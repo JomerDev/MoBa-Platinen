@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MoBaSbS-002-3-AnschaltGruppe-rescue")(type "Legacy")(uri "${KIPRJMOD}/MoBaSbS-002-AnschaltGruppev3-rescue.lib")(options "")(descr ""))
+)

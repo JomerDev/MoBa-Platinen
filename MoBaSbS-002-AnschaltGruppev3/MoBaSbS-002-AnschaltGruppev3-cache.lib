@@ -1,0 +1,239 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_+12V
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_+12V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_+12V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_+5V
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_CONN_01X03
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_CONN_01X03 P 0 40 Y N 1 F N
+F0 "P" 0 200 50 H V C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_CONN_01X03" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X03
+ Pin_Header_Angled_1X03
+ Socket_Strip_Straight_1X03
+ Socket_Strip_Angled_1X03
+$ENDFPLIST
+DRAW
+S -50 -95 10 -105 0 1 0 N
+S -50 5 10 -5 0 1 0 N
+S -50 105 10 95 0 1 0 N
+S -50 150 50 -150 0 1 0 N
+X P1 1 -200 100 150 R 50 50 1 1 P
+X P2 2 -200 0 150 R 50 50 1 1 P
+X P3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_CONN_02X05
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_CONN_02X05 P 0 1 Y N 1 F N
+F0 "P" 0 300 50 H V C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_CONN_02X05" 0 -300 50 H V C CNN
+F2 "" 0 -1200 50 H V C CNN
+F3 "" 0 -1200 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_2X05
+ Pin_Header_Angled_2X05
+ Socket_Strip_Straight_2X05
+ Socket_Strip_Angled_2X05
+$ENDFPLIST
+DRAW
+S -100 -195 -50 -205 0 1 0 N
+S -100 -95 -50 -105 0 1 0 N
+S -100 5 -50 -5 0 1 0 N
+S -100 105 -50 95 0 1 0 N
+S -100 205 -50 195 0 1 0 N
+S -100 250 100 -250 0 1 0 N
+S 50 -195 100 -205 0 1 0 N
+S 50 -95 100 -105 0 1 0 N
+S 50 5 100 -5 0 1 0 N
+S 50 105 100 95 0 1 0 N
+S 50 205 100 195 0 1 0 N
+X P1 1 -250 200 150 R 50 50 1 1 P
+X P10 10 250 -200 150 L 50 50 1 1 P
+X P2 2 250 200 150 L 50 50 1 1 P
+X P3 3 -250 100 150 R 50 50 1 1 P
+X P4 4 250 100 150 L 50 50 1 1 P
+X P5 5 -250 0 150 R 50 50 1 1 P
+X P6 6 250 0 150 L 50 50 1 1 P
+X P7 7 -250 -100 150 R 50 50 1 1 P
+X P8 8 250 -100 150 L 50 50 1 1 P
+X P9 9 -250 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_CP
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_CP C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_CP" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ CP*
+ Elko*
+ TantalC*
+ C*elec
+ c_elec*
+ SMD*_Pol
+$ENDFPLIST
+DRAW
+S -90 20 -90 40 0 1 0 N
+S -90 20 90 20 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+S 90 40 -90 40 0 1 0 N
+S 90 40 90 20 0 1 0 N
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 40 40 1 1 P
+X ~ 2 0 -150 110 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_FUSE
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_FUSE F 0 10 Y Y 1 F N
+F0 "F" 100 50 50 H V C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_FUSE" -100 -50 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
+A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
+X ~ 1 -250 0 100 R 40 40 1 1 I
+X ~ 2 250 0 100 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_GND
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_LED
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_LED D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 3 0 1 0 -80 -25 -125 -65 -120 -40 N
+P 3 0 1 0 -65 -40 -110 -80 -105 -55 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_PWR_FLAG
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 95 50 H I C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_PWR_FLAG" 0 180 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -75 100 0 150 75 100 0 50 N
+X pwr 1 0 0 0 U 20 20 0 0 w
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_R
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ R_*
+ Resistor_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MoBaSbS-002-3-AnschaltGruppe-rescue_RJ45
+#
+DEF MoBaSbS-002-3-AnschaltGruppe-rescue_RJ45 J 0 40 Y Y 1 F N
+F0 "J" 200 500 50 H V C CNN
+F1 "MoBaSbS-002-3-AnschaltGruppe-rescue_RJ45" -150 500 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+S -400 -300 400 450 0 1 0 N
+P 3 0 1 0 -175 200 -175 250 -175 250 N
+P 3 0 1 0 -125 250 -125 200 -125 200 N
+P 3 0 1 0 -75 250 -75 200 -75 200 N
+P 3 0 1 0 -25 250 -25 200 -25 200 N
+P 3 0 1 0 25 250 25 200 25 200 N
+P 3 0 1 0 75 250 75 200 75 200 N
+P 3 0 1 0 125 200 125 250 125 250 N
+P 3 0 1 0 175 200 175 250 175 250 N
+P 14 0 1 0 -225 250 225 250 225 -150 125 -150 125 -200 75 -200 75 -250 -75 -250 -75 -200 -125 -200 -125 -150 -225 -150 -225 250 -225 250 N
+X ~ 1 -350 -450 150 U 50 50 1 1 P
+X ~ 2 -250 -450 150 U 50 50 1 1 P
+X ~ 3 -150 -450 150 U 50 50 1 1 P
+X ~ 4 -50 -450 150 U 50 50 1 1 P
+X ~ 5 50 -450 150 U 50 50 1 1 P
+X ~ 6 150 -450 150 U 50 50 1 1 P
+X ~ 7 250 -450 150 U 50 30 1 1 P
+X ~ 8 350 -450 150 U 50 30 1 1 P
+X SHIELD 9 550 350 150 L 50 30 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
