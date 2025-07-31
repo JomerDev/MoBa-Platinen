@@ -1,0 +1,1109 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ceabac13-b87f-4975-a621-d374a880bf70")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Molex_MiniFitJr_2x2_PCB:39-28-1043"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "39-28-1043"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "39-28-1043"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.8"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-39-28-1043"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1043?qs=LQQHZ4xw2XCMHoV0KRLGhg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "39-28-1043"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "39-28-1043_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 81.28 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08ec0cb9-e071-46d9-b416-9a87b429ebe5")
+	)
+	(junction
+		(at 81.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25373577-da83-47b1-ad2b-644332abde9d")
+	)
+	(junction
+		(at 106.68 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "818867d2-9eb1-432b-96e5-61d2d0f8bb95")
+	)
+	(junction
+		(at 106.68 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9342f312-4752-4dff-9873-ef4dcfa7c658")
+	)
+	(junction
+		(at 106.68 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bebfdd7c-bb4b-4c11-a8d1-8c4092f5b66b")
+	)
+	(junction
+		(at 81.28 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca4aac6-9169-4cee-ba9f-f974d7501077")
+	)
+	(no_connect
+		(at 104.14 109.22)
+		(uuid "0e63d1fe-c6d3-4b3b-baf3-3369d036025c")
+	)
+	(no_connect
+		(at 83.82 109.22)
+		(uuid "1ee184dc-a659-43be-a53c-dcfa8143b0e4")
+	)
+	(no_connect
+		(at 83.82 123.19)
+		(uuid "40061b88-5ade-4619-a796-7e7bcf0eabe9")
+	)
+	(no_connect
+		(at 83.82 81.28)
+		(uuid "419e4103-71ea-49bb-b0ef-29fd394981d3")
+	)
+	(no_connect
+		(at 104.14 95.25)
+		(uuid "91eaba62-c70a-417e-b26b-2cedac6fb80c")
+	)
+	(no_connect
+		(at 104.14 67.31)
+		(uuid "9b2398c4-75dd-4449-83df-fdf9200095e2")
+	)
+	(no_connect
+		(at 104.14 123.19)
+		(uuid "9e969896-a781-461d-a49e-bce956cc2fe6")
+	)
+	(no_connect
+		(at 83.82 95.25)
+		(uuid "9f8fa90d-dabb-419a-9c33-aab516d274a4")
+	)
+	(no_connect
+		(at 83.82 67.31)
+		(uuid "aa91aaec-54be-4449-a863-cfab7e1089aa")
+	)
+	(no_connect
+		(at 104.14 81.28)
+		(uuid "d8dac463-3af0-4cf2-a3d1-c788d0250422")
+	)
+	(wire
+		(pts
+			(xy 106.68 111.76) (xy 106.68 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0187fa26-1d01-4b57-8a20-3840d27989e1")
+	)
+	(wire
+		(pts
+			(xy 81.28 97.79) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287e24fd-66d5-49e8-942d-4c6c617e2f9e")
+	)
+	(wire
+		(pts
+			(xy 81.28 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3832ba61-31ac-47be-95f3-df4773eac3e8")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef2b363-db71-4c42-befa-6d2555a95548")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520fb372-606a-41b0-9f05-e0866c88df40")
+	)
+	(wire
+		(pts
+			(xy 81.28 125.73) (xy 83.82 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c403ed-2ccb-4b47-9833-6ceecc823ab6")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fee566-5e06-48a4-95a9-6c877055319b")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf8ae6e-e44c-4572-b17a-2bd153215ae6")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 81.28 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7b4007-2eeb-42d5-813f-774ccfa032f5")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86fc947-f630-41c5-b23d-5697768a1dae")
+	)
+	(wire
+		(pts
+			(xy 81.28 69.85) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b184d10d-605b-4800-a44e-5bd753fe4d7b")
+	)
+	(wire
+		(pts
+			(xy 106.68 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6dbf0b-a89d-4299-b1b1-6f8f2dd97b73")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf11c60d-2c5d-48e7-8a49-f4266a67bbfb")
+	)
+	(wire
+		(pts
+			(xy 104.14 69.85) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36a7394-634e-478d-8a5c-6174e834163b")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c74d211a-06dc-42c5-bc9c-bb1bc1d1150c")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76e9251-0236-4db9-a19e-8bf0c4e556c3")
+	)
+	(wire
+		(pts
+			(xy 106.68 69.85) (xy 106.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a3364f-0957-4e72-99ca-bfc11d7c872a")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa477d8a-01fb-436c-9fdd-eb153033c072")
+	)
+	(label "POW"
+		(at 81.28 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "031a0dcc-6739-4084-855c-4e55c809ee08")
+	)
+	(label "GND"
+		(at 106.68 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc9a8ed1-2ca4-4c6c-8df4-b65ca6d139c6")
+	)
+	(symbol
+		(lib_id "Molex_MiniFitJr_2x2_PCB:39-28-1043")
+		(at 83.82 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee373eb-de7d-43c4-95bc-ececf2b5353b")
+		(property "Reference" "J4"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Molex_MiniFitJr_2x2_PCB:Molex_MiniFitJr_2x2_PCB"
+			(at 100.33 204.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 100.33 304.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 83.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.8"
+			(at 100.33 504.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39-28-1043"
+			(at 100.33 604.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1043?qs=LQQHZ4xw2XCMHoV0KRLGhg%3D%3D"
+			(at 100.33 704.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 100.33 804.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1043"
+			(at 100.33 904.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b3b70fa8-f645-47b8-8a02-e3da047a41ea")
+		)
+		(pin "2"
+			(uuid "34e5dea4-2f29-4813-aa52-2d6a194cb0d6")
+		)
+		(pin "4"
+			(uuid "4b11a467-64ea-4073-b6fa-c2e91de51ff3")
+		)
+		(pin "1"
+			(uuid "ed8517da-36ca-4408-8ebd-19c7df82293f")
+		)
+		(instances
+			(project "MoBaSbS-503-BoosterStromSplitter"
+				(path "/ceabac13-b87f-4975-a621-d374a880bf70"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Molex_MiniFitJr_2x2_PCB:39-28-1043")
+		(at 83.82 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a0f6db-0cc2-460e-8095-c6b77f93ce5e")
+		(property "Reference" "J1"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 93.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Molex_MiniFitJr_2x2_PCB:Molex_MiniFitJr_2x2_PCB"
+			(at 100.33 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 100.33 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.8"
+			(at 100.33 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39-28-1043"
+			(at 100.33 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1043?qs=LQQHZ4xw2XCMHoV0KRLGhg%3D%3D"
+			(at 100.33 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 100.33 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1043"
+			(at 100.33 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9280a80-54bd-4f75-b3bf-cf9ba3b350be")
+		)
+		(pin "2"
+			(uuid "b0489c84-1e1e-4c9e-b9fd-471ef0d5b460")
+		)
+		(pin "4"
+			(uuid "0e6f9f1b-8347-4746-a8ec-9e3b37806d36")
+		)
+		(pin "1"
+			(uuid "34162e2a-cb86-4854-b621-ce8c9b1eafa8")
+		)
+		(instances
+			(project ""
+				(path "/ceabac13-b87f-4975-a621-d374a880bf70"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Molex_MiniFitJr_2x2_PCB:39-28-1043")
+		(at 83.82 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ef9c0f-5e19-4d37-872e-a1366a122674")
+		(property "Reference" "J5"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 93.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Molex_MiniFitJr_2x2_PCB:Molex_MiniFitJr_2x2_PCB"
+			(at 100.33 218.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 100.33 318.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 83.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.8"
+			(at 100.33 518.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39-28-1043"
+			(at 100.33 618.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1043?qs=LQQHZ4xw2XCMHoV0KRLGhg%3D%3D"
+			(at 100.33 718.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 100.33 818.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1043"
+			(at 100.33 918.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b9b3b0ab-83bc-4504-b72d-254f5eef7eb5")
+		)
+		(pin "2"
+			(uuid "5580a48a-4457-4efb-b5c2-7c0f1266f597")
+		)
+		(pin "4"
+			(uuid "651e93c6-851d-4a7a-9686-c9afe93de6ae")
+		)
+		(pin "1"
+			(uuid "1bd88797-0bf6-469b-bff5-5c3b4fefc258")
+		)
+		(instances
+			(project "MoBaSbS-503-BoosterStromSplitter"
+				(path "/ceabac13-b87f-4975-a621-d374a880bf70"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Molex_MiniFitJr_2x2_PCB:39-28-1043")
+		(at 83.82 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa73718a-60fb-4894-8ae1-85ec204b295a")
+		(property "Reference" "J2"
+			(at 93.98 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Molex_MiniFitJr_2x2_PCB:Molex_MiniFitJr_2x2_PCB"
+			(at 100.33 176.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 100.33 276.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.8"
+			(at 100.33 476.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39-28-1043"
+			(at 100.33 576.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1043?qs=LQQHZ4xw2XCMHoV0KRLGhg%3D%3D"
+			(at 100.33 676.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 100.33 776.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1043"
+			(at 100.33 876.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "21ac6496-f468-451f-bc31-31e1eb67ac9c")
+		)
+		(pin "2"
+			(uuid "5255d949-4b7f-4114-9c5e-7b3180ba37f5")
+		)
+		(pin "4"
+			(uuid "b5058a14-b455-4d01-9fe1-ee603ce4ed87")
+		)
+		(pin "1"
+			(uuid "b0dd5c2c-eecb-4a3a-91e1-91aaae15fd1c")
+		)
+		(instances
+			(project "MoBaSbS-503-BoosterStromSplitter"
+				(path "/ceabac13-b87f-4975-a621-d374a880bf70"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Molex_MiniFitJr_2x2_PCB:39-28-1043")
+		(at 83.82 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcdf7754-bcc7-484f-a50f-7821f8aaeb05")
+		(property "Reference" "J3"
+			(at 93.98 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39-28-1043"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Molex_MiniFitJr_2x2_PCB:Molex_MiniFitJr_2x2_PCB"
+			(at 100.33 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/039281023_sd.pdf"
+			(at 100.33 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Vertical Header, 4.20mm Pitch, Dual Row, 4 Circuits, without Snap-in Plastic Peg PCB Lock, Tin, Natural"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.8"
+			(at 100.33 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39-28-1043"
+			(at 100.33 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39-28-1043?qs=LQQHZ4xw2XCMHoV0KRLGhg%3D%3D"
+			(at 100.33 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 100.33 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39-28-1043"
+			(at 100.33 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "45d81329-7b49-466a-b714-b29128521492")
+		)
+		(pin "2"
+			(uuid "de849dbc-3c1d-4cab-baec-42b0d8710cea")
+		)
+		(pin "4"
+			(uuid "d8d49810-b109-4a41-ade3-c5147d9296cd")
+		)
+		(pin "1"
+			(uuid "0117d944-8a6b-429e-8c38-e28a819eed70")
+		)
+		(instances
+			(project "MoBaSbS-503-BoosterStromSplitter"
+				(path "/ceabac13-b87f-4975-a621-d374a880bf70"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

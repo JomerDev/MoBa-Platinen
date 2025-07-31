@@ -109,7 +109,6 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -245,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|596900|1346200|00000000-0000-0000-0000-000057223204|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -470,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MoBaSbS-002-AnschaltGruppev3.kicad_pro",
+    "filename": "MoBaSbS-502-MoBaStromverteiler.kicad_pro",
     "version": 3
   },
   "net_settings": {

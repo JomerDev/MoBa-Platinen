@@ -1,0 +1,2289 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "unconnected-(H1-Pad1)")
+	(net 2 "unconnected-(H3-Pad1)")
+	(net 3 "Net-(J1-Pad3)")
+	(net 4 "Net-(J1-Pad1)")
+	(net 5 "Net-(J1-Pad2)")
+	(footprint "Molex_MiniFitJr_1x3_PCB:Molex_MiniFitJr_1x3_PCB"
+		(layer "F.Cu")
+		(uuid "042daa10-8f51-424f-8a33-facec985649b")
+		(at 115 120)
+		(descr "43242-0005-3")
+		(tags "Connector")
+		(property "Reference" "J5"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd4be97e-764f-4252-bfa4-7f42e0bd56dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43242-0005"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "868c772d-c691-4928-a227-e8b145f7ad2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2719fc00-c0c7-4471-846a-5337aed4e948")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61f2d4ee-c030-4113-ac68-382e2624f3e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "12.83"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4aafd94-08ff-4442-96e5-afe955e4fe7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8701961e-d66c-4870-92b5-bf429d2dd174")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5482462-6cf7-43a0-89cc-f27baaadac2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2226712-c8ab-48a7-aa95-e8af9b42f067")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc4a3f89-a18d-4473-bd3e-d5ec13d89c12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/25db9883-2668-44ae-abe4-942030880563")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66d25733-ab9b-46fb-9a6e-7df6fb3ca980")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c6127bc-9935-4c5b-aec5-3c14000b40d0")
+		)
+		(fp_line
+			(start -5.7 -3.8)
+			(end -5.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "225a3eaf-c022-406c-bce1-5b8e672ab4bd")
+		)
+		(fp_line
+			(start -2.7 -3.8)
+			(end -5.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "17cd38c5-9a9d-47fe-9d61-d9abff22089c")
+		)
+		(fp_line
+			(start -2.7 -2.8)
+			(end -2.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ec21c07-b744-4579-bacb-55f732bbe494")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aff9031b-9a4a-4eb1-97b7-389870a7fa70")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "781bac49-ba1d-4329-9d11-9fb332e11ed0")
+		)
+		(fp_line
+			(start 3.3 0.2)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b46bafac-2947-4804-a4d9-49fc93aa7976")
+		)
+		(fp_line
+			(start 3.4 0.2)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "10d804af-a76c-40cc-9a7f-eabc2ca12542")
+		)
+		(fp_arc
+			(start 3.3 0.2)
+			(mid 3.35 0.15)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "21ecddc5-8fd1-4879-a248-ed024cea1493")
+		)
+		(fp_arc
+			(start 3.4 0.2)
+			(mid 3.35 0.25)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f1d74de7-f0d7-4434-a7fa-208a74afe9bc")
+		)
+		(fp_line
+			(start -12.1 -4.8)
+			(end -12.1 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8403a709-1664-48ce-a29e-eb4c63fc4997")
+		)
+		(fp_line
+			(start -12.1 4.3)
+			(end 4.4 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1b2b7a41-7862-4c9e-8a05-72e66f01d6ab")
+		)
+		(fp_line
+			(start 4.4 -4.8)
+			(end -12.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b0ee4c6-4e4e-40a2-a86e-6e000c4a8c95")
+		)
+		(fp_line
+			(start 4.4 4.3)
+			(end 4.4 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "63381b85-cc17-4ec4-b57a-a601ad2acbe6")
+		)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c3776dad-afdb-40d7-8e3a-a8b579c594df")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "acd798f1-fa68-406f-accc-13c9947df5aa")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "130fd552-3a2d-4ee6-a6a6-b3ca37115980")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "abab54f2-5be6-41cc-92f3-953274cfc49d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.85 -0.25 0)
+			(layer "F.Fab")
+			(uuid "dc4cdcd8-3184-4297-961e-f694aede4fda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Net-(J1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3bf34aef-2fdb-4e65-b1aa-094b28703b0b")
+		)
+		(pad "2" thru_hole circle
+			(at -4.2 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(J1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "f212e125-5588-493f-8eb7-b1013c5aac56")
+		)
+		(pad "3" thru_hole circle
+			(at -8.4 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(J1-Pad3)")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "f42e564a-f4bc-4823-97c1-79b946d43d23")
+		)
+		(embedded_fonts no)
+		(model "43242-0005.stp"
+			(offset
+				(xyz -4.159999785 -0.4499999813 -0.239999991)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3RD_PARTY}/3dmodels/Molex_MiniFitJr_1x3_PCB.stp"
+			(offset
+				(xyz -4 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "Molex_MiniFitJr_1x3_PCB:Molex_MiniFitJr_1x3_PCB"
+		(layer "F.Cu")
+		(uuid "2798a85f-1d55-46d9-b7ab-69ef95db8240")
+		(at 115 75)
+		(descr "43242-0005-3")
+		(tags "Connector")
+		(property "Reference" "J2"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b12fb31b-b974-4f2e-897e-a67169db99b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43242-0005"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e9c1977d-0376-438b-9347-fcb4ff2c1f2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc53a81a-ed30-44ed-bc44-83e4299e0b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1d6f0d5-4fad-4f12-832d-ec4cab1d1ea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "12.83"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c10b77b-da87-42ca-a5e0-8a07fcf8a117")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a62fd8f-38e9-4d76-82a0-ac46071fcd7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf74bff9-6a5f-4cab-807c-0bc40d821790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c68e0f25-f9f5-4748-8abb-6cae0af4cf56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6de9b4a7-ae70-49c0-9337-cee69d64a655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2af80700-46c6-4832-9602-e0a8d0ce7faa")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ca6db18-673c-419f-818a-dce0a1189339")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e1ec8d1-73e6-4ff9-90e7-1029812ae1fd")
+		)
+		(fp_line
+			(start -5.7 -3.8)
+			(end -5.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e2b7ee7-159c-4089-89bd-e3844e23ecd6")
+		)
+		(fp_line
+			(start -2.7 -3.8)
+			(end -5.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6dfe423d-4661-433e-9406-7203128b3a67")
+		)
+		(fp_line
+			(start -2.7 -2.8)
+			(end -2.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "77e7028b-fd42-491a-80c0-2b3200b8ed32")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe9229af-376c-441f-b32b-50b09826b1e4")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3e1bc70a-156f-4195-97cf-8372ccd06954")
+		)
+		(fp_line
+			(start 3.3 0.2)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "085692c0-eed0-417a-894b-d1c8b759950d")
+		)
+		(fp_line
+			(start 3.4 0.2)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4092ef0-1589-4b7e-9355-825b92b56483")
+		)
+		(fp_arc
+			(start 3.3 0.2)
+			(mid 3.35 0.15)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "520caabe-c902-4d25-89f9-22c84ee5aacb")
+		)
+		(fp_arc
+			(start 3.4 0.2)
+			(mid 3.35 0.25)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "221a0a97-5160-4279-9ec3-bfcd08155a5e")
+		)
+		(fp_line
+			(start -12.1 -4.8)
+			(end -12.1 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dcdb4369-ff39-4221-adfc-4edf066f3589")
+		)
+		(fp_line
+			(start -12.1 4.3)
+			(end 4.4 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "291b7fb6-c83e-4b52-bed0-6a4b325293d8")
+		)
+		(fp_line
+			(start 4.4 -4.8)
+			(end -12.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fc03dc61-f923-4ae9-bfcb-54daec3895ac")
+		)
+		(fp_line
+			(start 4.4 4.3)
+			(end 4.4 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a886933f-51d6-4605-a75f-0033822da67a")
+		)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "982d2e61-0c49-46b4-8f79-512dd5d01c9a")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e28ec68b-19fa-4afe-a388-6e26b99c2a4e")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc00a4df-fdd9-4995-b4ae-f52d3258286f")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e88d5d79-a546-4d94-acae-d719eff35c75")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.85 -0.25 0)
+			(layer "F.Fab")
+			(uuid "fb384327-b580-4468-aa05-520244908451")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Net-(J1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "90b7c279-2ead-498f-92b2-3e4a1875aae0")
+		)
+		(pad "2" thru_hole circle
+			(at -4.2 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(J1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "b025a733-cefb-4461-bec0-17f0a5386fcc")
+		)
+		(pad "3" thru_hole circle
+			(at -8.4 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(J1-Pad3)")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "25ee70c4-49a4-4ad9-bc9e-0b1c4c4bb732")
+		)
+		(embedded_fonts no)
+		(model "43242-0005.stp"
+			(offset
+				(xyz -4.159999785 -0.4499999813 -0.239999991)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3RD_PARTY}/3dmodels/Molex_MiniFitJr_1x3_PCB.stp"
+			(offset
+				(xyz -4 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "Molex_MiniFitJr_1x3_PCB:Molex_MiniFitJr_1x3_PCB"
+		(layer "F.Cu")
+		(uuid "32d8f7b9-d6d4-48ee-92ef-9b6aa3e4dba7")
+		(at 115 90)
+		(descr "43242-0005-3")
+		(tags "Connector")
+		(property "Reference" "J3"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d272316-25ab-4f73-ad20-959eb36e9559")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43242-0005"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "123a19d4-a81f-4887-9372-10209f1c1a73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95482c7c-1c04-4848-b729-27dd1c41a306")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a0fb809-3dba-496d-8835-2050f82f6e77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "12.83"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66862b0e-ab46-490e-9ea4-4e71d8ed20f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "145120a3-6e7d-4e08-99e9-bf4abbdf1e6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fca8e2e-141d-4c88-ab70-5bc479ff7bd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1f11404-a437-492b-8a0a-e5d9cfe7ffd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "620917fa-6aad-4c69-93b2-bce553c53b9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/605916ac-7b1b-492a-b32e-95b61ade29fc")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e591a21f-49bb-4c50-b564-74d7b8cc6535")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3f843f88-4e4c-4823-89e1-481ba22bef42")
+		)
+		(fp_line
+			(start -5.7 -3.8)
+			(end -5.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "55259462-92a9-4076-af5e-a4dfc5bcc2fb")
+		)
+		(fp_line
+			(start -2.7 -3.8)
+			(end -5.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44c7b0d5-f866-44e1-b44e-1d3e63247f4f")
+		)
+		(fp_line
+			(start -2.7 -2.8)
+			(end -2.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc0c2803-420a-4cdd-b2b8-5015fea689dc")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39a9dfb3-51da-417c-a924-7621dae200e7")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdea8c6d-7b98-4bfe-8b41-5c8f59a4ba67")
+		)
+		(fp_line
+			(start 3.3 0.2)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "856e62c0-0951-45f2-a5cc-8626c959b862")
+		)
+		(fp_line
+			(start 3.4 0.2)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d68d1436-9b86-4258-a4bd-c2e895154901")
+		)
+		(fp_arc
+			(start 3.3 0.2)
+			(mid 3.35 0.15)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b53215d1-4bb3-4e0b-a28d-d2dccdeb485e")
+		)
+		(fp_arc
+			(start 3.4 0.2)
+			(mid 3.35 0.25)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8266bebb-6741-45fe-ac92-6192e13d063b")
+		)
+		(fp_line
+			(start -12.1 -4.8)
+			(end -12.1 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25fb8837-f95f-4829-91a5-0d3cc4a41921")
+		)
+		(fp_line
+			(start -12.1 4.3)
+			(end 4.4 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f536211-9c6c-4804-8388-29a11e0de6b3")
+		)
+		(fp_line
+			(start 4.4 -4.8)
+			(end -12.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "43d5deb9-3537-49e4-ae6b-ec04a63e47d6")
+		)
+		(fp_line
+			(start 4.4 4.3)
+			(end 4.4 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b0440e56-6ad5-460b-a8fe-d23551b23197")
+		)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "40155926-e1d0-4927-b214-3d8fd884da25")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "96027f09-b9b2-42cc-a4b8-08d74def2b0e")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb9efc4a-60e7-41ca-acbb-f569763943ce")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "90c3a9b6-1306-4812-9291-6d7a30285d47")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.85 -0.25 0)
+			(layer "F.Fab")
+			(uuid "2b58a9e8-bacd-4fa9-b867-02e6e6283ae7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Net-(J1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1e942e43-2611-47d4-b92b-93da377e958c")
+		)
+		(pad "2" thru_hole circle
+			(at -4.2 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(J1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "62a88a99-c98c-465d-8d7c-a35f68e5f634")
+		)
+		(pad "3" thru_hole circle
+			(at -8.4 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(J1-Pad3)")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "77b7bc47-ad1c-4035-9881-400d1d5c498d")
+		)
+		(embedded_fonts no)
+		(model "43242-0005.stp"
+			(offset
+				(xyz -4.159999785 -0.4499999813 -0.239999991)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3RD_PARTY}/3dmodels/Molex_MiniFitJr_1x3_PCB.stp"
+			(offset
+				(xyz -4 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "573630bb-bb49-4b74-8249-e4a6aa9718e0")
+		(at 110.8 52.4)
+		(descr "Mounting Hole 2.7mm, M2.5, DIN965")
+		(tags "mounting hole 2.7mm m2.5 din965")
+		(property "Reference" "H1"
+			(at 0 -3.35 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "48f1ca2e-4a15-4285-a131-830940ea612e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 3.35 0)
+			(layer "F.Fab")
+			(uuid "ea8a1b46-27d8-4205-9919-3f95cc22bd0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ef6f2e9-f208-49bc-aea9-d738edb0525a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c986d097-139b-4369-bdfa-e95a26f9b14d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/fe19a8b0-55e4-41f2-a927-12a4f2ea80c7")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.35 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "31cdd177-ae52-40f9-8a39-14377c076c7e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8e595625-1582-4062-b36e-58dd28d3be5f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9c3ce2c2-7a02-4ad0-ba51-0589be111e87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.7 4.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "unconnected-(H1-Pad1)")
+			(pinfunction "1")
+			(pintype "input+no_connect")
+			(uuid "af673b7a-e60d-4bcd-b1ea-451f9bb0eadc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Molex_MiniFitJr_1x3_PCB:Molex_MiniFitJr_1x3_PCB"
+		(layer "F.Cu")
+		(uuid "73d4f049-35dd-4077-825d-c8af969ab46e")
+		(at 115 60)
+		(descr "43242-0005-3")
+		(tags "Connector")
+		(property "Reference" "J1"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3b6fa545-6138-4777-8dec-d5292f124a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43242-0005"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a00c34bf-2979-4f1c-93f8-a80676f43a5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d23bf62-2cf3-4d7d-a0bf-9419fd1307ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88ba4dba-a84b-45b5-b368-98572fe11684")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "12.83"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1788c064-9a1a-4674-8adb-4176ee556a44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97bc970d-69cd-42f9-928b-c80ca51bd5b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91e75025-3ca4-41a6-99d8-750878226cc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8202d47-7901-4c42-a380-5b1b01b15760")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1977e7d5-b44c-4601-8016-3aa98a7b7e51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/abe46d8e-4429-482e-befb-d430f9f3d53e")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "35f61bf9-0bb7-4573-9523-5780c1c357e1")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1a2d44e-3475-4f22-a7c6-fd970253ef2e")
+		)
+		(fp_line
+			(start -5.7 -3.8)
+			(end -5.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d84d33e-1385-4341-a7c7-75efcd1ccd86")
+		)
+		(fp_line
+			(start -2.7 -3.8)
+			(end -5.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f1b801c-e0e9-4bd6-8a09-08fbc9cb2af0")
+		)
+		(fp_line
+			(start -2.7 -2.8)
+			(end -2.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a31290a-48d3-4889-b464-83fecbcbfd0e")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3add6839-b8e2-4c92-b864-4e3ccd217a70")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2c18a10-805b-4205-9018-15d6424bdd59")
+		)
+		(fp_line
+			(start 3.3 0.2)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f59bd0db-69fd-47d0-a0ae-14648960de85")
+		)
+		(fp_line
+			(start 3.4 0.2)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2d3d0877-d4af-43dc-9f8e-67f00e806358")
+		)
+		(fp_arc
+			(start 3.3 0.2)
+			(mid 3.35 0.15)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06df2a59-6e9b-4035-b429-d1f9840e442b")
+		)
+		(fp_arc
+			(start 3.4 0.2)
+			(mid 3.35 0.25)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ccbc240-2058-4bae-8bea-367268b9c7e3")
+		)
+		(fp_line
+			(start -12.1 -4.8)
+			(end -12.1 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ac9d889f-39b4-4f00-a5b9-32f926f9e96c")
+		)
+		(fp_line
+			(start -12.1 4.3)
+			(end 4.4 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "13af7aa0-c48a-46aa-ae43-e58f5adf8295")
+		)
+		(fp_line
+			(start 4.4 -4.8)
+			(end -12.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e06b82f0-40ae-424e-acd5-7306b2b8d120")
+		)
+		(fp_line
+			(start 4.4 4.3)
+			(end 4.4 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f5194fe6-fb25-4fbd-b6d8-082ba24e1b72")
+		)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5438a9fe-e0df-4734-8be5-dfbb1f10d53f")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c0416d32-4d8e-4fdb-a190-f8e5382850a2")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "544582a2-85e2-46bf-b5e5-1b3a2108627f")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9ff251a3-ee8e-4452-950f-ed720ad89e7a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.85 -0.25 0)
+			(layer "F.Fab")
+			(uuid "3709dfc2-b3e0-4f01-9366-c5cd5f7588e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Net-(J1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b181a2ee-131d-4e0e-a534-4c7e7c459fbb")
+		)
+		(pad "2" thru_hole circle
+			(at -4.2 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(J1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "ddd2bdbe-a210-457a-bd60-efd626315e55")
+		)
+		(pad "3" thru_hole circle
+			(at -8.4 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(J1-Pad3)")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "6c0a1e98-773f-4732-8026-8385f88cb8cd")
+		)
+		(embedded_fonts no)
+		(model "43242-0005.stp"
+			(offset
+				(xyz -4.159999785 -0.4499999813 -0.239999991)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3RD_PARTY}/3dmodels/Molex_MiniFitJr_1x3_PCB.stp"
+			(offset
+				(xyz -4 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "Molex_MiniFitJr_1x3_PCB:Molex_MiniFitJr_1x3_PCB"
+		(layer "F.Cu")
+		(uuid "a3ef0a43-05ed-4628-9c70-8bd959ca6743")
+		(at 115 105)
+		(descr "43242-0005-3")
+		(tags "Connector")
+		(property "Reference" "J4"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32c99136-f8fe-4761-a863-12abd654944a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "43242-0005"
+			(at -3.85 -0.25 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "980453ee-df93-4793-9ca5-bd95ab167826")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "330f4187-fb2e-46c8-a75c-543648eb83f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15a06073-374b-4c29-9e09-c8ba63df71c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "12.83"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4694e566-8731-4364-98da-8f83fe64ac63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "538-43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c1d45af-e074-4dc4-a99e-ac0b6e772034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b715c36c-7de7-420e-8c6d-99d5e3943384")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a925dfc-d7ad-42c6-8563-1fe5deca5826")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43242-0005"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c89f72a-3501-4d6b-a9f6-5e7247da8133")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7eed7881-2629-411a-8e2a-69265f6f3949")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b70de2e6-7dad-4572-93f4-9499f6093d1a")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4e60fc15-396f-4d05-88e6-33f1fcd8223a")
+		)
+		(fp_line
+			(start -5.7 -3.8)
+			(end -5.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f97400bf-d1ab-40a2-8a14-858847646405")
+		)
+		(fp_line
+			(start -2.7 -3.8)
+			(end -5.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce45f3eb-a817-4198-aee1-e28ab4f2812c")
+		)
+		(fp_line
+			(start -2.7 -2.8)
+			(end -2.7 -3.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39870915-a2b4-4fea-bc2b-ad62a41d4a7f")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c6d98590-2e6b-49cb-b96f-0928df46417d")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "373a90dd-e3f2-4724-8468-7539f8bea2a7")
+		)
+		(fp_line
+			(start 3.3 0.2)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "250753fa-ee58-4be5-bb04-474641adec4c")
+		)
+		(fp_line
+			(start 3.4 0.2)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95c0f261-9b86-4dff-b08c-ffa9a221770b")
+		)
+		(fp_arc
+			(start 3.3 0.2)
+			(mid 3.35 0.15)
+			(end 3.4 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "017a2102-cc6c-4d98-ba9f-feeefbf07e96")
+		)
+		(fp_arc
+			(start 3.4 0.2)
+			(mid 3.35 0.25)
+			(end 3.3 0.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "123d4348-5309-4c88-ab25-e92a5f743a5f")
+		)
+		(fp_line
+			(start -12.1 -4.8)
+			(end -12.1 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ef7fb16-8304-48d3-abd8-bac62f6c4380")
+		)
+		(fp_line
+			(start -12.1 4.3)
+			(end 4.4 4.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e8bc38e0-92c3-4271-af42-ad7a59e9228f")
+		)
+		(fp_line
+			(start 4.4 -4.8)
+			(end -12.1 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "deb73466-772b-456a-8105-52606baff4f5")
+		)
+		(fp_line
+			(start 4.4 4.3)
+			(end 4.4 -4.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a1567126-9834-4cd8-80f7-e62bfaf2bc10")
+		)
+		(fp_line
+			(start -11.1 -2.8)
+			(end -11.1 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dab83e47-bd17-4693-a019-d7903c22dbcd")
+		)
+		(fp_line
+			(start -11.1 3.3)
+			(end 2.7 3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "69671d84-72b4-4423-9eb9-57976d815f21")
+		)
+		(fp_line
+			(start 2.7 -2.8)
+			(end -11.1 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24d2e57c-6519-47d6-b3ef-5b86c088721a")
+		)
+		(fp_line
+			(start 2.7 3.3)
+			(end 2.7 -2.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8b7d2a69-b59d-4ea1-b830-49bb46552d05")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -3.85 -0.25 0)
+			(layer "F.Fab")
+			(uuid "838a52b9-ecbd-402c-bbcc-053abc1feee4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "Net-(J1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1b787184-df03-450c-9489-2e870b6bcf25")
+		)
+		(pad "2" thru_hole circle
+			(at -4.2 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "Net-(J1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "6b285993-6e01-4bb5-94fa-ade03242a644")
+		)
+		(pad "3" thru_hole circle
+			(at -8.4 0)
+			(size 2.7 2.7)
+			(drill 1.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "Net-(J1-Pad3)")
+			(pinfunction "3")
+			(pintype "passive")
+			(uuid "54335179-ea56-4021-a0d7-0f7fdaa82ab6")
+		)
+		(embedded_fonts no)
+		(model "43242-0005.stp"
+			(offset
+				(xyz -4.159999785 -0.4499999813 -0.239999991)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3RD_PARTY}/3dmodels/Molex_MiniFitJr_1x3_PCB.stp"
+			(offset
+				(xyz -4 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+		(layer "F.Cu")
+		(uuid "acb0368c-26fa-4a90-af90-2f17c1479909")
+		(at 110.8 127)
+		(descr "Mounting Hole 2.7mm, M2.5, DIN965")
+		(tags "mounting hole 2.7mm m2.5 din965")
+		(property "Reference" "H3"
+			(at 0 -3.35 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e862e600-b53c-49ae-a83c-1c337f9adb5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 0 3.35 0)
+			(layer "F.Fab")
+			(uuid "1166c66d-035d-4646-b36b-44dfe8d483f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "080058af-f9c3-468a-95ed-98d8ad149de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85098485-3344-44f6-bf9f-c751c131cb39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/d87d898b-45f1-4242-a7e7-9a01a5afac24")
+		(sheetname "/")
+		(sheetfile "MoBaSbS-501-FahrstromSteckerleiste.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.35 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "58dbb82b-c5cd-4ba3-9503-37ffb5f65ef6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.6 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "485b6517-3d7b-45ae-8f83-0432d3f5342a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a656bed4-eabd-4107-8459-d0befbd2030b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 4.7 4.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "unconnected-(H3-Pad1)")
+			(pinfunction "1")
+			(pintype "input+no_connect")
+			(uuid "651197f4-067f-4a8f-84bf-c0fc94b14d17")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 102.87 49.53)
+		(end 102.87 130.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "10a65070-13b2-47d5-a6fb-4467bf2691be")
+	)
+	(gr_line
+		(start 119.38 49.53)
+		(end 110.8 49.53)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9849d263-8496-49b4-8005-a137f18730a7")
+	)
+	(gr_line
+		(start 102.87 130.175)
+		(end 119.38 130.175)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c9d2b93b-d484-4f90-a3cf-b34b019848e9")
+	)
+	(gr_line
+		(start 110.8 49.53)
+		(end 102.87 49.53)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cb08362d-5278-4530-b8e9-2ee8100fa52c")
+	)
+	(gr_line
+		(start 119.38 130.175)
+		(end 119.38 49.53)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cc3b2092-0e65-4e01-9fb3-07174b91f1be")
+	)
+	(segment
+		(start 106.6 60)
+		(end 106.6 120)
+		(width 2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "6e847d4e-720d-48d8-bfb9-366cbb078e43")
+	)
+	(segment
+		(start 115 60)
+		(end 115 120)
+		(width 2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "c94f5720-0774-4b05-bf83-23501754db39")
+	)
+	(segment
+		(start 110.8 60)
+		(end 110.8 120)
+		(width 2)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "b974d5d1-3b98-472c-8ab1-d30c4e35e81b")
+	)
+	(embedded_fonts no)
+)
