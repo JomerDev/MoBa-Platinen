@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MoBaSbS-004-1-AtMega8-rescue")(type "Legacy")(uri "${KIPRJMOD}/MoBaSbS-507-4xServo-rescue.lib")(options "")(descr ""))
+)
