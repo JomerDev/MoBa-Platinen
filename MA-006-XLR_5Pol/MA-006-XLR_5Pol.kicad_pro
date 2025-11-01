@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|157315000|98380000|f4552253-9d50-41ab-b257-d5d79f6401d9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|168589877|103684143|791abf3c-fd2c-47cc-b783-3dcc773a7362|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -97,7 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -197,7 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -473,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MA-003-Pico.kicad_pro",
+    "filename": "MA-006-XLR_5Pol.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -512,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MA-003-Pico.stl",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -633,7 +624,7 @@
   },
   "sheets": [
     [
-      "bd1338f7-8f9e-4af9-91cd-a810b185acb0",
+      "8c1a0fb9-8800-4b13-ac0f-1706a178497c",
       "Root"
     ]
   ],

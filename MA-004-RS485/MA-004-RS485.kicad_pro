@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|157315000|98380000|f4552253-9d50-41ab-b257-d5d79f6401d9|00000000-0000-0000-0000-000000000000",
-          ""
+          "courtyards_overlap|140851000|97397000|041a9215-81d4-450c-a312-ef2bc6b68990|7df98788-6538-496c-989c-d2d5cdc42661",
+          "The board will always have one or the other, never both"
         ],
         [
-          "silk_over_copper|168589877|103684143|791abf3c-fd2c-47cc-b783-3dcc773a7362|00000000-0000-0000-0000-000000000000",
+          "footprint_symbol_mismatch|137733000|99192000|7df98788-6538-496c-989c-d2d5cdc42661|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -109,9 +109,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -197,7 +197,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        0.3,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -473,7 +474,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MA-003-Pico.kicad_pro",
+    "filename": "MA-004-RS485.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -512,7 +513,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MA-003-Pico.stl",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -633,7 +634,7 @@
   },
   "sheets": [
     [
-      "bd1338f7-8f9e-4af9-91cd-a810b185acb0",
+      "f13a8d71-b4b7-4544-a17e-b80127db08e6",
       "Root"
     ]
   ],

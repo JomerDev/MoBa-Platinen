@@ -2776,6 +2776,65 @@
 		(layer "Edge.Cuts")
 		(uuid "55b1e3d1-4a0c-4fa6-b91f-8e02f40ee573")
 	)
+	(gr_text "MoBaSbS-505/1\n10.25 Jomer.dev"
+		(at 113.03 96.774 0)
+		(layer "F.SilkS")
+		(uuid "42563923-9168-4d68-a36e-6a9f23b5a913")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(gr_text "4"
+		(at 135.89 82.296 90)
+		(layer "F.SilkS")
+		(uuid "6b7c392d-93ef-4429-a039-471f806ddc25")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "3"
+		(at 127 82.423 90)
+		(layer "F.SilkS")
+		(uuid "dc9ff336-ccfa-4193-b05f-b44c4c806a21")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "1"
+		(at 109.2 82.423 90)
+		(layer "F.SilkS")
+		(uuid "e740fab4-7836-4427-8823-5383f47688e8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "2"
+		(at 118.11 82.423 90)
+		(layer "F.SilkS")
+		(uuid "e81d149b-3d71-4de7-88c2-f5865f39968b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(segment
 		(start 96.52 81.915)
 		(end 127 81.915)

@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|104576540|88681714|537f1540-38e8-4083-b5e1-a03ecd197346|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -464,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MoBaSbS-505-10Zu8x3.kicad_pro",
+    "filename": "MoBaSbS-506-10Zu8x3.kicad_pro",
     "version": 3
   },
   "net_settings": {

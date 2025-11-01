@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|157315000|98380000|f4552253-9d50-41ab-b257-d5d79f6401d9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|168589877|103684143|791abf3c-fd2c-47cc-b783-3dcc773a7362|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -109,7 +100,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -197,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -473,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MA-003-Pico.kicad_pro",
+    "filename": "MA-007-Power.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -512,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MA-003-Pico.stl",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -633,7 +625,7 @@
   },
   "sheets": [
     [
-      "bd1338f7-8f9e-4af9-91cd-a810b185acb0",
+      "d43a0742-6de7-4807-8d17-3401e22deab4",
       "Root"
     ]
   ],

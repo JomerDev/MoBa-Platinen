@@ -2684,7 +2684,7 @@
 				)
 			)
 		)
-		(property "Value" "Interface A"
+		(property "Value" "Interface_A"
 			(at 1.27 -5.964 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6944,7 +6944,7 @@
 		)
 	)
 	(gr_text "On/Off"
-		(at 138.938 120.65 0)
+		(at 139.446 120.904 0)
 		(layer "F.SilkS")
 		(uuid "24d38d5d-6919-4067-a4db-f30365cf03c9")
 		(effects
@@ -7003,6 +7003,31 @@
 				(thickness 0.25)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "MA-003/1\n10.25 Jomer.dev"
+		(at 156.337 96.901 0)
+		(layer "B.SilkS")
+		(uuid "70286789-bf3b-4664-848d-79224f455705")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "-6.35 pin socket width from pcb"
+		(at 132.842 95.504 0)
+		(layer "Dwgs.User")
+		(uuid "1bdc09f3-44d3-4d63-8b25-aaeca160878f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right bottom)
 		)
 	)
 	(segment
@@ -7644,7 +7669,7 @@
 		(uuid "bccb7d15-7de8-4b50-9d0b-9c5994facde3")
 	)
 	(via
-		(at 140.97 120.65)
+		(at 141.605 121.412)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
