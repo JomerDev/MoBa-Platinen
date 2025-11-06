@@ -60,11 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|157633987|86500000|1401eb5d-256d-49be-960e-7234999f87b1|43301531-855c-4116-b58b-040b5d39f98b",
-          "Only one of the two is ever going to be populated"
-        ],
-        [
-          "courtyards_overlap|162633500|81885000|1401eb5d-256d-49be-960e-7234999f87b1|b139854b-60a4-4316-9d68-9b01ab1844a0",
+          "lib_footprint_mismatch|155080000|119003000|8594cff3-8eaa-4208-907b-b9d8de4492ff|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -109,9 +105,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -197,8 +193,7 @@
       ],
       "track_widths": [
         0.0,
-        1.0,
-        2.0
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -464,7 +459,6 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -475,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MA-007-Power.kicad_pro",
+    "filename": "MoBaSbS-508-FlachbandSplitter-Long.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -635,7 +629,7 @@
   },
   "sheets": [
     [
-      "d43a0742-6de7-4807-8d17-3401e22deab4",
+      "e80d717e-6444-456a-a582-3dadd43a62db",
       "Root"
     ]
   ],

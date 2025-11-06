@@ -1388,6 +1388,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Molex_MiniFitJr1x3_PCB:43242-0005"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "43242-0005"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "432420005"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.83"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-43242-0005"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "43242-0005"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "43242-0005_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 133.35 114.3)
@@ -1697,6 +1867,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 111.76) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f30875d-d6cf-4fc9-aaf9-50abe7218153")
+	)
+	(wire
+		(pts
 			(xy 130.81 76.2) (xy 130.81 62.23)
 		)
 		(stroke
@@ -1797,6 +1977,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 106.68) (xy 179.07 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1aeab69-e187-430a-b474-4c99e39f084c")
+	)
+	(wire
+		(pts
 			(xy 133.35 102.87) (xy 133.35 100.33)
 		)
 		(stroke
@@ -1804,6 +1994,16 @@
 			(type default)
 		)
 		(uuid "eb6e69da-0fc6-4419-ae79-8e7cf037fa2b")
+	)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc6275e-7cf3-4de2-8b52-93317edf966f")
 	)
 	(wire
 		(pts
@@ -1846,14 +2046,14 @@
 		(uuid "f8471b0c-e553-4e30-90ca-29ceb241500f")
 	)
 	(label "5V"
-		(at 165.1 59.69 180)
+		(at 177.8 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "357c58e9-3fc0-4fd8-9a52-0581e1f1e71d")
+		(uuid "2291afce-a3f0-4024-bba7-f5bf8fd63a6d")
 	)
 	(label "5V_PRE"
 		(at 130.81 87.63 0)
@@ -1864,6 +2064,26 @@
 			(justify left bottom)
 		)
 		(uuid "3797db10-29c7-407a-89bd-a6fe03df7c03")
+	)
+	(label "GND"
+		(at 177.8 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a085ef1-815f-4bc4-9d37-582c6fd3418e")
+	)
+	(label "3V3"
+		(at 177.8 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3be188c5-3b07-46d3-86bb-b25cd216ab6d")
 	)
 	(label "GND"
 		(at 130.81 92.71 0)
@@ -1974,6 +2194,16 @@
 			(justify right bottom)
 		)
 		(uuid "e58532a9-9900-46d8-b182-6a6a0eeef00c")
+	)
+	(label "5V_PRE"
+		(at 165.1 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efea7188-2613-4880-97af-eed546bb6ad7")
 	)
 	(symbol
 		(lib_id "MoBaSbS-002-3-AnschaltGruppe-rescue:R")
@@ -2854,6 +3084,131 @@
 			(project ""
 				(path "/d43a0742-6de7-4807-8d17-3401e22deab4"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Molex_MiniFitJr1x3_PCB:43242-0005")
+		(at 179.07 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c39d14e2-d42a-40c2-8b78-ade97a591d15")
+		(property "Reference" "J4"
+			(at 195.58 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43242-0005"
+			(at 195.58 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Molex_MiniFitJr_1x3:Molex_MiniFitJr_1x3_PCB"
+			(at 195.58 201.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/432420005_sd.pdf"
+			(at 195.58 301.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings MiniFit Jr Header 3 Ckt"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.83"
+			(at 195.58 501.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-43242-0005"
+			(at 195.58 601.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/43242-0005?qs=WXzVXFlun0UzpNSBTvE%252BTg%3D%3D"
+			(at 195.58 701.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 195.58 801.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "43242-0005"
+			(at 195.58 901.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "60f4f8eb-08cf-4691-9598-cce07b8fb006")
+		)
+		(pin "1"
+			(uuid "fc4eabaa-1ef9-4170-a292-4c02182ca4ec")
+		)
+		(pin "2"
+			(uuid "afb31d3f-d595-43b3-a80c-99be658c5e62")
+		)
+		(instances
+			(project "MA-007-Power"
+				(path "/d43a0742-6de7-4807-8d17-3401e22deab4"
+					(reference "J4")
 					(unit 1)
 				)
 			)
