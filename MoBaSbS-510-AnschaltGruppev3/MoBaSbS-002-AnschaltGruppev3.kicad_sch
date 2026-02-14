@@ -7999,6 +7999,16 @@
 		)
 		(uuid "01ac3c0b-4dde-4140-9641-04c4fa64e29a")
 	)
+	(label "CAN_H"
+		(at 128.27 90.17 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "02b6b7b8-5bdf-4454-bb16-2aa399ddfdef")
+	)
 	(label "IO_12"
 		(at 163.8392 91.44 180)
 		(effects
@@ -8118,16 +8128,6 @@
 			(justify right bottom)
 		)
 		(uuid "28733f9f-ce43-494b-bfa0-eb1377e40420")
-	)
-	(label "CAN_H"
-		(at 128.27 92.71 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "2880f1dd-c271-4662-9473-418c5df12901")
 	)
 	(label "CAN_L"
 		(at 35.56 25.4 180)
@@ -8419,6 +8419,16 @@
 		)
 		(uuid "6aa5910e-17af-4034-8735-988fd97e9a1f")
 	)
+	(label "CAN_L"
+		(at 128.27 92.71 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c7e485f-a5a4-4655-a0c6-1d892ad2bfc4")
+	)
 	(label "CAN_RX"
 		(at 97.79 95.25 180)
 		(effects
@@ -8568,16 +8578,6 @@
 			(justify left bottom)
 		)
 		(uuid "9ad56dde-963b-4a2a-80fe-7c623a568b2f")
-	)
-	(label "CAN_L"
-		(at 128.27 90.17 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ee62712-77d0-463b-b548-c50863cb188d")
 	)
 	(label "GPIO21"
 		(at 138.43 177.8 0)
@@ -8749,16 +8749,6 @@
 		)
 		(uuid "ceec9d09-a026-4e6b-b83a-2dffd785499d")
 	)
-	(label "+3V3"
-		(at 128.27 87.63 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "d39a5e51-3a88-42e3-930b-657c5d5af79d")
-	)
 	(label "CAN_TX"
 		(at 97.79 87.63 180)
 		(effects
@@ -8898,6 +8888,16 @@
 			(justify right bottom)
 		)
 		(uuid "f0a0b2bd-f5e8-462b-86a4-bac198f2a9ef")
+	)
+	(label "GND"
+		(at 128.27 87.63 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e3edce-fa04-42a0-a650-030b93b902b9")
 	)
 	(label "IO_22"
 		(at 163.83 104.14 180)
